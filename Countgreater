@@ -1,0 +1,18 @@
+public class CountGreaterThan50 {
+    public static void main(String[] args) {
+        // Example array
+        int[] arr = {10, 55, 23, 99, 50, 75};
+
+        int count = 0;
+
+        // Loop through array
+        for (int num : arr) {
+            if (num > 50) {
+                count++;
+            }
+        }
+
+        // Print result
+        System.out.println("Numbers greater than 50: " + count);
+    }
+}
